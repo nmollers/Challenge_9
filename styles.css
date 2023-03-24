@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(72, 72, 218);
+  }
+
+#logo{
+    width: 60%;
+    height: 30%px;
+    
+}
+
+.box {
+    margin: 20px;
+    padding: 20px;
+    background: rgb(0, 174, 255);
+    line-height: 18px;
+    height: 300px;
+    font-size: 18px;
+    border-radius: 50px;
+  }
+
+  #form1 {
+
+
+    
+  }
