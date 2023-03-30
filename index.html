@@ -4,39 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PayPalooza Inloggen</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Paypalooza</title>
 </head>
 <body>
-<center>
-    <img id="logo" src="logot.jpg" alt="PayPalooza"> <!-- Logo, voor in het midden -->
-</center>
+<img id="logo" src="logot.jpg">
+<div id="fotoLaag"> </div>
+<H1 id="tekst">Welkom bij Paypalooza, de beste bank in uw regio!</H1>
 
-    <div class="box"> <!--De box waar de inglog form op staat -->
 
-<center>Inloggen
-        <form method="post" action="Placeholder.php">  <!--Vul hier de file in, waar de data naar toe moet.-->
-            <input placeholder="username" type="text" name="username" id="username"> <!--Input for the username,Variable voor backend = $username ( terug te zien in het ID.)-->
-            <br>
-            <input placeholder="password" type="text" name="password" id="password"> <!--Input for the password,Variable voor backend = $password-->
-            <br>
-            <input type="submit" value="Login" name="submit" id="submit">
-        </form> 
+<div id="budgetknop"> 
+<button><a href="./budget.html" target="_blank">Budgetten beheren</a></button>
+</div>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        
-        <a href="register.html"><button type="button" id="knop" href="register.html">Ga Naar Register</button> 
-    </center>
+<div id="box1">  Uw geld: </div>
+
+<div id="box2">  </div>
+<div id="box3">  </div>
+<div id="box4">  </div>
+<div id="box5">  </div>
+
+<div id="mutatiesknop"> 
+    <button><a href="./mutaties.html" target="_blank">Bekijk uw transacties</a></button>
     </div>
+
+
+<div id="transacties"> 
+<ul>
+    <h3> Uw recente transacties </h3>
+    <li> -1,63 Albert Heijn </li>
+    <li> +15,00 Tikkie Jerrel Olivers </li>
+    <li> -18,00 Kapper </li>
+    <li> -25,00 Club de Mondial </li>
+</ul>
+</div>
 
 </body>
 </html>

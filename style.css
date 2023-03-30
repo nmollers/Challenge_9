@@ -1,0 +1,98 @@
+body {
+    background-color: #3265d2;
+    }
+
+#logo {
+    width: 800px;
+    height: 50px;
+    left: 30px;
+    top: 20px;
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+}
+#fotoLaag {
+    background-color:white;
+    width: 1480px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: -10;
+}
+#tekst {
+    top: 100px;
+    position: absolute;
+    color: lime
+}
+
+#transacties {
+    width: 300px;
+    height: 300px;
+    right: 280px;
+    top: 400px;
+    position: absolute;
+    
+}
+#budgetknop {   
+    
+    right: 180px;
+    top: 60px;
+    position: absolute;
+    }
+
+#mutatiesknop {
+    right: 360px;
+    top: 650px;
+    position: absolute;
+}
+
+#box1 {
+    width: 300px;
+    height: 150px;
+    top: 200px;
+    left: 1px;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+}
+
+#box2 {
+    width: 300px;
+    height: 150px;
+    top: 360px;
+    left: 1px;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+}
+
+#box3 {
+    width: 300px;
+    height: 150px;
+    top: 200px;
+    left: 350px;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+}
+
+#box4 {
+    width: 300px;
+    height: 150px;
+    top: 360px;
+    left: 350px;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+}
+
+#box5 {
+    width: 500px;
+    height: 400px;
+    top: 250px;
+    left: 800px;
+    background-color: white;
+    position: absolute;
+    z-index: -10;
+} 
