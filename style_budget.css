@@ -1,0 +1,38 @@
+body {
+    background-color: #3265d2;
+    }
+
+#logo {
+    width: 800px;
+    height: 50px;
+    left: 30px;
+    top: 20px;
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+}
+#fotoLaag {
+    background-color:white;
+    width: 1480px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: -10;
+}
+
+#addCategory {
+    left: 500px;
+    top: 350px;
+    width: 250px;
+    position: absolute;
+}
+
+#tabelCategory {
+    left: 500px;
+    top: 450px;
+    width: 400px;
+    height: 200px;
+    font: Arial;
+    position: absolute;
+}
